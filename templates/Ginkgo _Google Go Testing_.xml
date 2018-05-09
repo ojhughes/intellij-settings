@@ -1,0 +1,114 @@
+<templateSet group="Ginkgo (Google Go Testing)">
+  <template name="justbeforeeach" value="JustBeforeEach(func() {&#10;    $END$&#10;})" description="JustBeforeEach(...) test block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="describe" value="Describe(&quot;$DESCRIBE$&quot;, func() {&#10;    $END$&#10;})" description="Describe(...) test block" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIBE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="context" value="Context(&quot;when $CONTEXT$&quot;, func() {&#10;    $END$&#10;})" description="Context(...) test block" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="beforeeach" value="BeforeEach(func() {&#10;    $END$&#10;})" description="BeforeEach(...) test block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="aftereach" value="AfterEach(func() {&#10;    $END$&#10;})" description="AfterEach(...) test block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="it" value="It(&quot;should $IT$&quot;, func() {&#10;    $END$&#10;})" description="It(...) test block" toReformat="false" toShortenFQNames="true">
+    <variable name="IT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="expect" value="Expect($EXPECT$)." description="Expect(...) expression" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="toequal" value="To(Equal($ASSERTION$))" description="To(Equal(...)) assertion" toReformat="false" toShortenFQNames="true">
+    <variable name="ASSERTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="tobezero" value="To(BeZero())" description="To(BeZero()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="tobenil" value="To(BeNil())" description="To(BeNil()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="tobetrue" value="To(BeTrue())" description="To(BeTrue()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="tobefalse" value="To(BeFalse())" description="To(BeFalse()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="tobefunc" value="To(BeFunction($FUNCTION$))" description="To(BeFunction(...)) assertion" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="tobeempty" value="To(BeEmpty())" description="To(BeEmpty()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="nottobeempty" value="NotTo(BeEmpty())" description="NotTo(BeEmpty()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="nottobenil" value="NotTo(BeNil())" description="NotTo(BeNil()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="nottobezero" value="NotTo(BeZero())" description="NotTo(BeZero()) assertion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="nottoequal" value="NotTo(Equal($ASSERTION$))" description="NotTo(Equal(...)) assertion" toReformat="false" toShortenFQNames="true">
+    <variable name="ASSERTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="false" value="false" description="false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="nil" value="nil" description="nil" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="true" value="true" description="true" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>

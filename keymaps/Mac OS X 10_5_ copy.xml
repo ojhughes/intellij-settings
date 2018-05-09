@@ -1,0 +1,33 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl alt delete" />
+  </action>
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl alt back_space" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+  </action>
+  <action id="EmmetNextEditPoint" />
+  <action id="EmmetPreviousEditPoint" />
+  <action id="FileChooser.GotoModule" />
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+</keymap>

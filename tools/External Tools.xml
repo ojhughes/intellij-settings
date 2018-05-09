@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Ginkgo watch" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="ginkgo" />
+      <option name="PARAMETERS" value="watch -race $FileDir$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
