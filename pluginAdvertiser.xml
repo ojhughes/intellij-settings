@@ -469,7 +469,7 @@
                   </entry>
                   <entry key="gcp-app-engine-deploy">
                     <value>
-                      <FeaturePluginData displayName="Google App Engine Deployment" pluginName="IDEA CORE" pluginId="com.intellij" />
+                      <FeaturePluginData displayName="Google App Engine Deployment" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
                     </value>
                   </entry>
                   <entry key="gcp-app-engine-local-run">
