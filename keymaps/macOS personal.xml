@@ -1,0 +1,20 @@
+<keymap version="1" name="macOS personal" parent="Mac OS X 10.5+">
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="List-selectPreviousColumn">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="NavBar-selectLeft">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="SegmentedButton-left">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="Tree-selectParent">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+</keymap>
