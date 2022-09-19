@@ -3,6 +3,9 @@
     <option name="pluginIds">
       <list>
         <option value="idea.plugin.protoeditor" />
+        <option value="aws.toolkit" />
+        <option value="com.intellij.bigdatatools" />
+        <option value="com.intellij.graalvm" />
       </list>
     </option>
   </component>
