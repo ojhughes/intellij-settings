@@ -1,0 +1,8 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="35.230.130.99" id="30312096-ff49-4ab6-bc54-98ad48792991" port="22" nameFormat="DESCRIPTIVE" username="ohughes" useOpenSSHConfig="true" />
+      <sshConfig host="35.230.130.99" id="ea5f12d7-226b-4a1c-89b3-31b708f508e2" keyPath="~/.ssh/google_compute_engine" port="22" nameFormat="DESCRIPTIVE" username="ohughes" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</application>
