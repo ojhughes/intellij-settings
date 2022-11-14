@@ -1,0 +1,5 @@
+<application>
+  <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/workspace/google-deployment-manager-neo4j/simple/cluster.py.schema" value="YAML" />
+  </component>
+</application>
